@@ -1,0 +1,91 @@
+*{  
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+     background-color: white;
+}
+
+header {
+    height: 180px;
+    background-color: #4730c8;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    padding-top: 25px;
+    height: 100px;
+    text-align: center;
+    color: #f8f7f7;
+    font-size: 8px;
+    background-color: rgb(21, 13, 139);
+    
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+
+
+.navbar-brand {
+    position: relative;
+    left: 47%; /* Mueve el logo al 50% del ancho del contenedor */
+    transform: translateX(-50%); /* Ajusta el logo hacia la izquierda para centrarlo */
+  }
+
+  /* Color de los bordes de las cajas */
+  .color{
+    background-color: #4730c8;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* hay que cambiar box por cards */
+
+
+footer {
+    height: 300px;
+    background-color: #4730c8;
+    color: white;
+    padding: 20px 0;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 24px; /* Aumenta el tamaño de los iconos */
+    transition: color 0.3s ease; /* Añade una transición suave al color */
+}
+footer a:hover {
+    color: #bbbbbb; /* Cambia el color al pasar el mouse por encima */
+}
+.contact-link {
+    font-size: 16px; /* Tamaño normal para el enlace de contacto */
+    vertical-align: middle; /* Alinea verticalmente con los iconos */
+}
+
+
+
